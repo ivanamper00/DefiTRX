@@ -13,7 +13,6 @@ class DashboardAdapter(var onClick: OnItemClickListener) : RecyclerView.Adapter<
 
 
     class ViewHolder(var binding: ItemDashboardBinding) : RecyclerView.ViewHolder(binding.root) {
-
         fun setData(data: DataContent, onClick: OnItemClickListener) {
             binding.item = data
             itemView.setOnClickListener {

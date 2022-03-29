@@ -14,10 +14,10 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('D:\\Ivan\\Projects\\BTInternational\\Nh888\\nohunohu888.jks')
-            storePassword 'nohunohu888'
-            keyAlias 'nohunohu888'
-            keyPassword 'nohunohu888'
+            storeFile file('D:\\Ivan\\Projects\\BTInternational\\DefiTRX\\defitrxapp.jks')
+            storePassword 'defitrxapp'
+            keyAlias 'defitrxapp'
+            keyPassword 'defitrxapp'
         }
     }
 

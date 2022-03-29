@@ -6,6 +6,10 @@
         <variable
             name="item"
             type="com.dakuinternational.common.domain.model.DataContent" />
+        <variable
+            name="sample"
+            type="java.lang.String" />
+
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
