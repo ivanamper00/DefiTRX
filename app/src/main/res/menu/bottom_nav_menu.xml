@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboardFragment"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/mobileFragment"
+        android:title="@string/mineInPC"
+        android:icon="@drawable/ic_baseline_mobile_friendly_24"/>
+
+    <item
+        android:id="@+id/computerFragment"
+        android:title="@string/computer"
+        android:icon="@drawable/ic_baseline_computer_24"/>
+
+</menu>
