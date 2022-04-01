@@ -52,13 +52,15 @@ class MainActivity : BaseActivity(), DashboardAdapter.OnItemClickListener {
             }
         }
 
-        binding.bottomNavigationView.setOnItemSelectedListener {
-            when(it.itemId){
-                R.id.dashboardFragment -> navigateToHome()
-                R.id.mobileFragment -> navigateToMobile()
-                R.id.computerFragment -> navigateToComputer()
+        with(binding.bottomNavigationView){
+            setOnItemSelectedListener {
+                when(it.itemId){
+                    R.id.dashboardFragment -> navigateToHome()
+                    R.id.mobileFragment -> navigateToMobile()
+                    R.id.computerFragment -> navigateToComputer()
+                }
+                return@setOnItemSelectedListener true
             }
-            return@setOnItemSelectedListener true
         }
     }
 
